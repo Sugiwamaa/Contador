@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: Baskerville;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 169, 169);
+}
+
+p {
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: x-large;
+    color: aliceblue;
+    border: 1px;
+    border-color: cornsilk;
+}
+
+button {
+    height: 35px;
+    width: 35px;
+    border-radius: 40%;
+    border: 1px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 21pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
